@@ -1,7 +1,7 @@
 {
-  "name": "yazan9-lamejs",
+  "name": "beacon-lamejs",
   "version": "1.2.1-hotfix",
-  "description": "Alex Zhukov's Pure JavaScript MP3 Encoder",
+  "description": "Alex Zhukov's Pure JavaScript MP3 Encoder - updated build",
   "main": "src/js/index.js",
   "directories": {
     "doc": "doc",
