@@ -11,6 +11,7 @@ echo 'lamejs();'
 )| grep -v -e '^\s*assert\s*(.*);' >lame.all.js
 
 #cc=closure-compiler
-jar=~/java/compiler.jar
-cc="java -jar $jar"
-$cc lame.all.js --language_in ECMASCRIPT5 --js_output_file lame.min.js
+#jar=~/java/compiler.jar
+#cc="java -jar $jar"
+#$cc lame.all.js --language_in ECMASCRIPT5 --js_output_file lame.min.js
+google-closure-compiler lame.all.js --language_in ECMASCRIPT5 --js_output_file lame.min.js
